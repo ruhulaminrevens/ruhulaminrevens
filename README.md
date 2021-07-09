@@ -1,4 +1,4 @@
-### Hi there, I'm MD. Ruhul Amin - aka [ruhulamin567][website] 👋
+### Hi there, I'm MD. Ruhul Amin - aka [ruhulamin.com.bd][website] 👋
 
 [![Website](https://img.shields.io/website?label=ruhulamin567.com&style=for-the-badge&url=https%3A%2F%2Fruhulamin567.com)](https://ruhulamin567.com)
 [![Twitter Follow](https://img.shields.io/twitter/follow/ruhulamin567?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fruhulamin567&screen_name=ruhulamin567)
@@ -104,7 +104,7 @@
 
 </details>
 
-[website]: https://ruhulamin567.com
+[website]: https://ruhulamin.com.bd
 [course]: http://vsCodeHero.com
 [twitter]: https://twitter.com/ruhulamin567
 [youtube]: https://youtube.com/ruhulamin567
