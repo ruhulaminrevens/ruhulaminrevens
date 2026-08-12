@@ -1,116 +1,158 @@
-### Hi there, I'm MD. Ruhul Amin - aka [ruhulamin.com.bd][website] 👋
+<div align="center">
 
-[![Website](https://img.shields.io/website?label=ruhulamin567.com&style=for-the-badge&url=https%3A%2F%2Fruhulamin567.com)](https://ruhulamin567.com)
-[![Twitter Follow](https://img.shields.io/twitter/follow/ruhulamin567?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fruhulamin567&screen_name=ruhulamin567)
+# Md. Ruhul Amin
 
-## I'm a Husband, Father, Developer, and Teacher!!
+### Inventory Accounting Manager · MIS & Financial Analytics · Data Automation · Software & Web Solutions
 
-- 🔭 I just launched my first course: [Become A VS Code SuperHero!][course]!
-- 🌱 I’m currently learning everything 🤣
-- 👯 I’m looking to collaborate with other content creators
-- 🥅 2020 Goals: Contribute more to Open Source projects
-- ⚡ Fun fact: I love to draw and play guitar / drums
+**Computer Science & Engineering graduate building practical systems that turn business, inventory and financial data into clear reports, dashboards and useful software.**
 
-### Spotify Playing 🎧
+[![Portfolio](https://img.shields.io/badge/Portfolio-ruhulamin.com.bd-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.ruhulamin.com.bd/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-iruhul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iruhul/)
+[![GitHub](https://img.shields.io/badge/GitHub-ruhulaminrevens-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ruhulaminrevens)
+[![YouTube](https://img.shields.io/badge/YouTube-@ruhulaminrevens-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ruhulaminrevens)
+[![Facebook](https://img.shields.io/badge/Facebook-Professional_Page-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/www.ruhulamin.com.bd)
 
-[<img src="https://now-playing-codeSTACKr.vercel.app/api/spotify-playing" alt="Ruhul Amin Spotify Playing" width="350" />](https://open.spotify.com/user/31bxocrvwis7i2abq2zzggcnhrcu)
-
-
-### Connect with me:
-
-[<img align="left" alt="ruhulamin567.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="ruhulamin567 | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="ruhulamin567 | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="ruhulamin567 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="ruhulamin567 | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-
-<br />
-
-### Languages and Tools:
-
-[<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][webdevplaylist]
-[<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][webdevplaylist]
-[<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />][cssplaylist]
-[<img align="left" alt="Sass" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />][cssplaylist]
-[<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][jsplaylist]
-[<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />][reactplaylist]
-[<img align="left" alt="Gatsby" width="26px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/gatsby/gatsby.png" />][webdevplaylist]
-[<img align="left" alt="GraphQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/graphql/graphql.png" />][webdevplaylist]
-[<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />][webdevplaylist]
-[<img align="left" alt="Deno" width="26px" src="https://raw.githubusercontent.com/github/explore/361e2821e2dea67711cde99c9c40ed357061cf27/topics/deno/deno.png" />][webdevplaylist]
-[<img align="left" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />][webdevplaylist]
-[<img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />][webdevplaylist]
-[<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />][webdevplaylist]
-[<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />][webdevplaylist]
-[<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][webdevplaylist]
-[<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][webdevplaylist]
-
-<br />
-<br />
+</div>
 
 ---
 
-### 📺 Latest YouTube Videos
+## About Me
 
-<!-- YOUTUBE:START -->
-- [Personal Development - Never Give Up Motivational Video](https://www.youtube.com/watch?v=98u9EEBtXjY)
-- [Beautiful Love Songs Of All Time - Already There](https://www.youtube.com/watch?v=l3VaVQu7W0k)
-- [How To Create A Free Website - Volunteering Website (a web based project)](https://www.youtube.com/watch?v=Fj7RBsPDk1Q)
-- [Sharamjadi - Bangla New Song 2019 | Official Bangla Music Video](https://www.youtube.com/watch?v=8B6CYfDwwiQ)
-- [Friendship!!!](https://www.youtube.com/watch?v=v0EkcEdfmtY)
-<!-- YOUTUBE:END -->
+I work at the intersection of **accounting operations, inventory control, MIS reporting, financial analysis, data automation and software**.
 
-➡️ [more videos...](https://youtube.com/ruhulamin567)
+- 💼 **Inventory Accounting Manager** at **Nabiad Distribution Limited**
+- 🎓 **B.Sc. in Computer Science & Engineering** — Daffodil International University
+- 📊 Experienced in **MIS reporting, inventory reconciliation, sales analysis, profitability analysis, dashboards and KPI reporting**
+- ⚙️ I build **Excel/Power Query automation, data models, reporting workflows and practical business tools**
+- 💻 I also work with **PHP, SQL, MySQL, JavaScript, WordPress, Python and GitHub Actions**
+- 🎯 Career interests: **Data Analytics · MIS/Reporting · Business Intelligence · Inventory Analytics · Financial Analytics**
+- 📍 Dhaka, Bangladesh
 
----
-
-### 📕 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [How To Pass Application Tracking Systems (ATS) & Get Interviews - Resume Tips for Software Developer](https://dev.to/ruhulamin567/how-to-pass-application-tracking-systems-ats-get-interviews-resume-tips-for-software-developer-4bmo)
-- [Microinteractions: Password Validation Animation](https://dev.to/ruhulamin567/microinteractions-password-validation-animation-5629)
-- [Notion + YouTube - A Powerful Combination for Productivity](https://dev.to/ruhulamin567/notion-youtube-a-powerful-combination-for-productivity-1def)
-- [Regular Expressions (RegEx) Crash Course](https://dev.to/ruhulamin567/regular-expressions-regex-crash-course-248n)
-- [Emmet Part 2 - Advanced](https://dev.to/ruhulamin567/emmet-part-2-advanced-4c65)
-<!-- BLOG-POST-LIST:END -->
-
-➡️ [more blog posts...](https://ruhulamin567.com)
-
----
-###  StackOverflow Activity
-<!-- STACKOVERFLOW:START -->
-- [java scripts is not launching on chrome](https://stackoverflow.com/questions/63033350/java-scripts-is-not-launching-on-chrome)
-<!-- STACKOVERFLOW:END -->
+> My strongest area is connecting business requirements with technical solutions — turning raw operational data into information people can actually use to make decisions.
 
 ---
 
-<details>
-  <summary>:zap: Recent GitHub Activity</summary>
-  
-<!--START_SECTION:activity-->
-1. ❌ Closed PR [#1](https://github.com/ruhulamin567/spotify-now-playing/pull/1) in [ruhulamin567/spotify-now-playing](https://github.com/ruhulamin567/spotify-now-playing)
-2. 🗣 Commented on [#1](https://github.com/ruhulamin567/spotify-now-playing/issues/1) in [ruhulamin567/spotify-now-playing](https://github.com/ruhulamin567/spotify-now-playing)
-3. ❗️ Closed issue [#8](https://github.com/ruhulamin567/free-developer-resources/issues/8) in [ruhulamin567/free-developer-resources](https://github.com/ruhulamin567/free-developer-resources)
-4. 🗣 Commented on [#8](https://github.com/ruhulamin567/free-developer-resources/issues/8) in [ruhulamin567/free-developer-resources](https://github.com/ruhulamin567/free-developer-resources)
-5. 🗣 Commented on [#7](https://github.com/ruhulamin567/free-developer-resources/issues/7) in [ruhulamin567/free-developer-resources](https://github.com/ruhulamin567/free-developer-resources)
-<!--END_SECTION:activity-->
+## Core Professional Areas
 
-</details>
+| Area | What I Work With |
+|---|---|
+| **Inventory & Accounting** | Stock reconciliation, inventory accounting, movement analysis, control reports, exceptions |
+| **MIS & Reporting** | Management reports, KPI tracking, recurring reporting systems, structured summaries |
+| **Financial Analytics** | Gross margin, profitability, cost analysis, working capital, ROI and performance trends |
+| **Excel Automation** | Advanced formulas, PivotTables, PivotCharts, Power Query, dashboards, validation and reusable models |
+| **Data & BI** | SQL, data cleaning, data structuring, Power BI, decision-focused analysis |
+| **Software & Web** | PHP, MySQL, JavaScript, HTML/CSS, WordPress, Python utilities and shared-hosting applications |
+| **Workflow Automation** | GitHub Actions, repeatable checks, reporting automation and process improvement |
 
-<details>
-  <summary>:zap: GitHub Stats</summary>
+---
 
-  <img align="left" alt="ruhulamin567's GitHub Stats" src="https://github-readme-stats.ruhulamin567.vercel.app/api?username=ruhulamin567&show_icons=true&hide_border=true" />
+## Tech Stack & Tools
 
-</details>
+### Data, Analytics & Reporting
 
-[website]: https://ruhulamin.com.bd
-[course]: http://vsCodeHero.com
-[twitter]: https://twitter.com/ruhulamin567
-[youtube]: https://youtube.com/ruhulamin567
-[instagram]: https://instagram.com/ruhulamin567
-[linkedin]: https://linkedin.com/in/ruhulamin567
-[webdevplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrAJ0WbEsFA9W3I1W-g_BTsbt
-[jsplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrALRJKu7wfXby3MKeflhTu6B
-[cssplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrALSdvZuEh6gqQdmDoDIoqz4
-[reactplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrAK4TdffpxKY3QGyHCpxFcQ0
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=000)
+![Power Query](https://img.shields.io/badge/Power_Query-217346?style=flat-square&logo=microsoft&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Tally](https://img.shields.io/badge/Tally_ERP-1F4E79?style=flat-square)
+
+### Development
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
+
+### Engineering Workflow
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+
+---
+
+## Featured Project
+
+### 💻 Laptop Check Pro v1.0 Professional
+
+A Windows 10/11 used-laptop inspection assistant designed to help buyers evaluate a laptop before purchase. It combines automated hardware checks with guided physical tests and produces a **0–100 health score**, **Battery Grade**, test completion status and a final **BUY / NEGOTIATE / REJECT** recommendation.
+
+**Highlights:** battery health grading, SSD/HDD details, CPU/RAM/BIOS checks, Wi-Fi/Bluetooth/camera/audio detection, display and keyboard tests, touch/2-in-1 guidance, HTML/JSON reports and GitHub Actions EXE builds.
+
+[![Project](https://img.shields.io/badge/View_Project-Laptop_Check_Pro-181717?style=for-the-badge&logo=github)](https://github.com/ruhulaminrevens/ruhulaminrevens/tree/main/projects/LaptopCheckPro)
+[![Download](https://img.shields.io/badge/Download-Windows_EXE-0078D4?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/ruhulaminrevens/ruhulaminrevens/releases/download/laptop-check-pro-v1.0.0/LaptopCheckPro.exe)
+
+---
+
+## Selected Web & Utility Projects
+
+| Project | Focus | Link |
+|---|---|---|
+| **Free Bangla Calendar** | Bangla calendar, date and utility platform | [calendar.freebangla.com](https://calendar.freebangla.com/) |
+| **Bangla Voice** | Bangla voice / TTS utility | [voice.freebangla.com](https://voice.freebangla.com/) |
+| **Free Bangla Calculator** | Online calculation utility | [calculator.freebangla.com](https://calculator.freebangla.com/) |
+| **Personal Portfolio** | Professional profile, work and portfolio | [ruhulamin.com.bd](https://www.ruhulamin.com.bd/) |
+| **IT Blog** | Technology notes and tutorials | [itruhul.blogspot.com](https://itruhul.blogspot.com/) |
+
+---
+
+## Current Focus
+
+```text
+Business Data  →  Clean Structure  →  Analysis  →  Dashboard / Report  →  Better Decisions
+     +
+Business Need  →  Practical Automation / Software Tool  →  Repeatable Workflow
+```
+
+I am currently focused on improving projects around:
+
+- Financial and MIS reporting automation
+- Inventory and profitability analytics
+- Excel / Power Query / Power BI workflows
+- PHP + SQL shared-hosting applications
+- Python desktop utilities
+- Practical AI-assisted productivity and business tools
+
+---
+
+## Digital & Business Projects
+
+[![SUNMARK](https://img.shields.io/badge/SUNMARK-Shop_&_Digital_Retail-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/sunmark.com.bd/)
+[![New Digital Creations](https://img.shields.io/badge/New_Digital_Creations-Creative_&_Digital-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/newdigitalcreations/)
+
+---
+
+## Professional Direction
+
+I enjoy roles where **finance, operations, technology and data** meet. My work is especially suited to environments that need better reporting, cleaner data, stronger inventory visibility and practical automation.
+
+**Areas of interest:**
+
+`Data Analyst` · `MIS / Reporting Analyst` · `Business Intelligence Analyst` · `Inventory Analyst` · `Financial Analyst` · `IT / Business Systems Analyst`
+
+---
+
+## Connect With Me
+
+- 🌐 Portfolio: **[www.ruhulamin.com.bd](https://www.ruhulamin.com.bd/)**
+- 💼 LinkedIn: **[linkedin.com/in/iruhul](https://www.linkedin.com/in/iruhul/)**
+- 🧑‍💻 GitHub: **[github.com/ruhulaminrevens](https://github.com/ruhulaminrevens)**
+- ▶️ YouTube: **[youtube.com/@ruhulaminrevens](https://www.youtube.com/@ruhulaminrevens)**
+- 📘 Facebook: **[Ruhul Amin Professional Page](https://www.facebook.com/www.ruhulamin.com.bd)**
+- ✍️ Blog: **[itruhul.blogspot.com](https://itruhul.blogspot.com/)**
+
+---
+
+<div align="center">
+
+### Thanks for visiting my GitHub profile.
+
+**Build useful things. Automate repetitive work. Make data easier to understand.**
+
+![Profile Views](https://komarev.com/ghpvc/?username=ruhulaminrevens&style=flat-square&label=Profile+Views)
+
+</div>
