@@ -7,6 +7,11 @@ on:
     paths:
       - 'projects/LaptopCheckPro/**'
       - '.github/workflows/build-laptop-check-pro.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'projects/LaptopCheckPro/**'
+      - '.github/workflows/build-laptop-check-pro.yml'
 
 jobs:
   build:
@@ -33,9 +38,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements-build.txt
 
-      - name: Validate Python source
+      - name: Validate all Python modules
         shell: pwsh
-        run: python -m py_compile laptop_check_pro.py
+        run: |
+          python -m py_compile laptop_check_pro.py core.py ui.py reporting.py
+
+      - name: Run scoring smoke test
+        shell: pwsh
+        run: |
+          python -c "import core; r=[]; core.add(r,'Battery','Health','86%','PASS',weight=12); core.add(r,'Storage','Disk 1','Healthy','PASS',weight=15); core.add(r,'Display','Display Test','Passed','PASS',weight=10); core.add(r,'BIOS','BIOS Password Check','Passed','PASS',weight=6); assert core.battery_grade(86)=='B'; assert core.score(r)==100; assert core.recommendation(r)[0]=='BUY'; print('Laptop Check Pro smoke test passed')"
 
       - name: Build single-file EXE
         shell: pwsh
@@ -50,7 +61,7 @@ jobs:
       - name: Upload Windows EXE
         uses: actions/upload-artifact@v4
         with:
-          name: LaptopCheckPro-Windows
+          name: LaptopCheckPro-v1.0.0-Windows
           path: |
             projects/LaptopCheckPro/dist/LaptopCheckPro.exe
             projects/LaptopCheckPro/dist/SHA256.txt
