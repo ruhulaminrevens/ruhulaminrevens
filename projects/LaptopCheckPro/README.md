@@ -4,6 +4,17 @@
 
 It combines automated Windows hardware checks with guided physical tests, then produces a weighted **0–100 health score**, **test completion percentage**, **Battery Grade**, and a final **BUY / NEGOTIATE / REJECT** recommendation.
 
+## ⬇️ Download Windows EXE
+
+[![Download Laptop Check Pro v1.0.0](https://img.shields.io/badge/Download-LaptopCheckPro.exe-2ea44f?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/ruhulaminrevens/ruhulaminrevens/releases/download/laptop-check-pro-v1.0.0/LaptopCheckPro.exe)
+
+[![View Release](https://img.shields.io/badge/GitHub-View%20Release-181717?style=for-the-badge&logo=github)](https://github.com/ruhulaminrevens/ruhulaminrevens/releases/tag/laptop-check-pro-v1.0.0)
+[![Builds](https://img.shields.io/badge/Actions-Latest%20Build-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/ruhulaminrevens/ruhulaminrevens/actions/workflows/build-laptop-check-pro.yml)
+
+**Windows 10/11:** click the green **Download LaptopCheckPro.exe** button above. The release also contains `SHA256.txt` so you can verify the downloaded EXE.
+
+> Windows SmartScreen may show **Unknown Publisher** because the EXE is not code-signed with a commercial certificate. The full source and GitHub Actions build workflow are public in this repository.
+
 ## v1.0 highlights
 
 - Professional dark dashboard UI
@@ -78,8 +89,8 @@ Windows exposes different SMART/reliability fields depending on the SSD model, c
 2. Open **Build Laptop Check Pro EXE**.
 3. Click **Run workflow**.
 4. The workflow compiles all Python modules, runs a scoring smoke test, builds a single-file Windows EXE and generates SHA-256.
-5. Download the **LaptopCheckPro-v1.0.0-Windows** artifact.
-6. Extract and run `LaptopCheckPro.exe`.
+5. GitHub Actions uploads a temporary build artifact and, on `main`, publishes/updates the stable **v1.0.0 GitHub Release**.
+6. Download `LaptopCheckPro.exe` from the **Download Windows EXE** section above.
 
 ## Source structure
 
