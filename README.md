@@ -77,14 +77,14 @@ I work at the intersection of **accounting operations, inventory control, MIS re
 
 ## Featured Project
 
-### 💻 Laptop Check Pro v1.0 Professional
+### 💻 Laptop Check Pro v1.1 Professional
 
 A Windows 10/11 used-laptop inspection assistant designed to help buyers evaluate a laptop before purchase. It combines automated hardware checks with guided physical tests and produces a **0–100 health score**, **Battery Grade**, test completion status and a final **BUY / NEGOTIATE / REJECT** recommendation.
 
-**Highlights:** battery health grading, SSD/HDD details, CPU/RAM/BIOS checks, Wi-Fi/Bluetooth/camera/audio detection, display and keyboard tests, touch/2-in-1 guidance, HTML/JSON reports and GitHub Actions EXE builds.
+**Highlights:** battery health grading, SSD/HDD details, CPU/RAM/BIOS checks, Wi-Fi/Bluetooth/camera/audio detection, display and keyboard tests, touch/2-in-1 guidance, HTML/JSON/CSV reports, stricter critical-check decisions, multi-battery support and GitHub Actions EXE builds.
 
 [![Project](https://img.shields.io/badge/View_Project-Laptop_Check_Pro-181717?style=for-the-badge&logo=github)](https://github.com/ruhulaminrevens/ruhulaminrevens/tree/main/projects/LaptopCheckPro)
-[![Download](https://img.shields.io/badge/Download-Windows_EXE-0078D4?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/ruhulaminrevens/ruhulaminrevens/releases/download/laptop-check-pro-v1.0.0/LaptopCheckPro.exe)
+[![Download](https://img.shields.io/badge/Download-Windows_ZIP-0078D4?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/ruhulaminrevens/ruhulaminrevens/releases/download/laptop-check-pro-v1.1.0/LaptopCheckPro-v1.1.0-Windows.zip)
 
 ---
 

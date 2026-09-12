@@ -1,21 +1,35 @@
-# Laptop Check Pro v1.0 Professional
+# Laptop Check Pro v1.1 Professional
 
 **Laptop Check Pro** is a Windows 10/11 used-laptop inspection assistant designed to help buyers check a laptop in a few clicks before paying.
 
 It combines automated Windows hardware checks with guided physical tests, then produces a weighted **0–100 health score**, **test completion percentage**, **Battery Grade**, and a final **BUY / NEGOTIATE / REJECT** recommendation.
 
-## ⬇️ Download Windows EXE
+## ⬇️ Download Windows ZIP / EXE
 
-[![Download Laptop Check Pro v1.0.0](https://img.shields.io/badge/Download-LaptopCheckPro.exe-2ea44f?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/ruhulaminrevens/ruhulaminrevens/releases/download/laptop-check-pro-v1.0.0/LaptopCheckPro.exe)
+[![Download Laptop Check Pro v1.1.0](https://img.shields.io/badge/Download-LaptopCheckPro.exe-2ea44f?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/ruhulaminrevens/ruhulaminrevens/releases/download/laptop-check-pro-v1.1.0/LaptopCheckPro.exe)
 
-[![View Release](https://img.shields.io/badge/GitHub-View%20Release-181717?style=for-the-badge&logo=github)](https://github.com/ruhulaminrevens/ruhulaminrevens/releases/tag/laptop-check-pro-v1.0.0)
+[![View Release](https://img.shields.io/badge/GitHub-View%20Release-181717?style=for-the-badge&logo=github)](https://github.com/ruhulaminrevens/ruhulaminrevens/releases/tag/laptop-check-pro-v1.1.0)
 [![Builds](https://img.shields.io/badge/Actions-Latest%20Build-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/ruhulaminrevens/ruhulaminrevens/actions/workflows/build-laptop-check-pro.yml)
 
 **Windows 10/11:** click the green **Download LaptopCheckPro.exe** button above. The release also contains `SHA256.txt` so you can verify the downloaded EXE.
 
 > Windows SmartScreen may show **Unknown Publisher** because the EXE is not code-signed with a commercial certificate. The full source and GitHub Actions build workflow are public in this repository.
 
-## v1.0 highlights
+## New in v1.1.0
+
+- Stricter decisions: required critical tests and at least 90% weighted completion.
+- Unhealthy storage becomes FAIL; unavailable readings show UNKNOWN.
+- Multi-battery capacity reporting; weakest-battery status and clean temporary-file handling.
+- Scan error recovery, new inspection reset and manual-result preservation.
+- Horizontal results scrolling and unique-key feedback in the keyboard test.
+- Printable HTML + JSON + Excel-friendly CSV reports.
+- Tested Windows EXE and a versioned ZIP with documentation and checksums.
+
+[Download LaptopCheckPro-v1.1.0-Windows.zip](https://github.com/ruhulaminrevens/ruhulaminrevens/releases/download/laptop-check-pro-v1.1.0/LaptopCheckPro-v1.1.0-Windows.zip)
+
+Extract the ZIP and open `LaptopCheckPro.exe`. Python is not required. Use **New inspection** before inspecting another laptop. Reports are saved only to your chosen folder; the app does not upload hardware reports.
+
+## Existing features retained
 
 - Professional dark dashboard UI
 - English / বাংলা language toggle
@@ -40,7 +54,7 @@ It combines automated Windows hardware checks with guided physical tests, then p
 - Manufacturer built-in diagnostics guidance; Dell F12/ePSA highlighted
 - Windows Memory Diagnostic launcher
 - CrystalDiskInfo and HWiNFO quick links
-- Professional HTML + JSON inspection report
+- Professional HTML + JSON + CSV inspection report
 
 ## Battery grades
 
@@ -52,16 +66,16 @@ It combines automated Windows hardware checks with guided physical tests, then p
 | 60–69% | D | Weak; battery replacement risk |
 | Below 60% | F | Poor |
 
-Battery grading is based on Windows battery-report **Full Charge Capacity ÷ Design Capacity**.
+Battery grading is based on Windows battery-report **Full Charge Capacity ÷ Design Capacity**. With multiple batteries, the dashboard grade uses combined capacity while the health status follows the weakest battery; inspect each battery row. A missing capacity is UNKNOWN, while an actual zero capacity is a failed battery.
 
 ## Recommendation logic
 
 The app uses weighted results instead of treating every check equally.
 
-- **BUY** — strong score, enough tests completed, and no critical display/storage/BIOS failure
+- **BUY** — score ≥85, ≥90% weighted completion, required CPU/RAM/battery/storage readings, completed display/BIOS/built-in diagnostics checks and no FAIL result
 - **NEGOTIATE** — usable laptop with warnings/wear that justify a lower price or more checks
-- **REJECT** — low overall health or a critical failure
-- **INCOMPLETE** — too many important manual tests are still pending
+- **REJECT** — low overall health or a critical storage/display/BIOS/built-in diagnostics failure, even when other checks are pending
+- **INCOMPLETE** — required readings or critical tests are missing, or weighted completion is below 90%; UNKNOWN does not count as completed
 
 The recommendation is an inspection aid, not a guarantee.
 
@@ -88,9 +102,9 @@ Windows exposes different SMART/reliability fields depending on the SSD model, c
 1. Open the repository **Actions** tab.
 2. Open **Build Laptop Check Pro EXE**.
 3. Click **Run workflow**.
-4. The workflow compiles all Python modules, runs a scoring smoke test, builds a single-file Windows EXE and generates SHA-256.
-5. GitHub Actions uploads a temporary build artifact and, on `main`, publishes/updates the stable **v1.0.0 GitHub Release**.
-6. Download `LaptopCheckPro.exe` from the **Download Windows EXE** section above.
+4. The workflow compiles Python modules, runs regression tests and a source UI smoke test, builds a Windows x64 EXE, smoke-tests the packaged EXE, then creates a ZIP and SHA-256 checksums.
+5. On a `main` push or manual run, the workflow publishes the version from `core.VERSION`. Existing version assets are preserved; bump VERSION for another release. Pull requests build and test without publishing.
+6. Download the Windows ZIP or standalone EXE from the links above.
 
 ## Source structure
 
@@ -112,3 +126,24 @@ No Windows app can guarantee that a used laptop is defect-free. Software cannot 
 ## License
 
 MIT — use, modify and distribute at your own risk.
+
+## Verification and development
+
+```powershell
+python -m unittest discover -s tests -v
+python smoke_test.py source-smoke.json
+python -m pip install -r requirements-build.txt
+pyinstaller --noconfirm --clean --onefile --windowed --name LaptopCheckPro laptop_check_pro.py
+```
+
+Build on Windows with Python 3.12 x64. To verify a download, compare
+`Get-FileHash .\LaptopCheckPro.exe -Algorithm SHA256` with `SHA256.txt`.
+The release checksum file covers both EXE and ZIP; the copy inside the ZIP covers the EXE.
+
+Open an exported HTML report in a browser and use Print → Save as PDF when needed.
+Reports include hardware serials, so review them before sharing. Some diagnostics require
+administrator access or driver support; missing readings remain UNKNOWN.
+The score mixes reported condition with RAM suitability, and is not a hardware certification.
+
+Technical references: [Microsoft physical-disk health codes](https://learn.microsoft.com/en-us/windows-hardware/drivers/storage/msft-physicaldisk),
+[PyInstaller build documentation](https://pyinstaller.org/en/stable/).
